@@ -6,7 +6,7 @@ Simply follow the instructions in the README.md file to get started.
 
 ## Download model weights
 
-Before you start, you need to download the model weights locally. You can download the weights with the `stable_diffusion/download_model.py` script. The model weights will be stored under `stable_diffusion/external_files/model_weights`.
+Before you start, you need to download the model weights locally. You can download the weights with the `src/stable_diffusion/download_model.py` script. The model weights will be stored under `src/stable_diffusion/external_files/model_weights`.
 
 The weights are restricted to users who accepted the terms and conditions of the license, so you need 2 steps before runnning the script:
 - Log-in to your huggingface account and accept the condition of the mdoel, [here for stable diffusion 1.4](https://huggingface.co/CompVis/stable-diffusion-v1-4)
@@ -28,7 +28,7 @@ The weights are restricted to users who accepted the terms and conditions of the
 
 ## Docker image
 
-The deployment of the model is dockerized inside a dockerfile.
+The deployment of the model is done using Docker.
 
 The 2 following PORT are used:
 - `7080`: Inference
