@@ -1,7 +1,8 @@
 # How to deploy huggingface model to a Vertex endpoint
 
-This project contains the necessary files and instructions to deploy a stable version of a machine learning model using torchserve, create a Docker image for the model, and deploy the model to Vertex and attach it to a Vertex endpoint. Simply follow the instructions in the README.md file to get started.
+This project contains the necessary files and instructions to deploy a stable version of a machine learning model using torchserve, create a Docker image for the model, and deploy the model to Vertex and attach it to a Vertex endpoint.
 
+Simply follow the instructions in the README.md file to get started.
 
 ## Download model weights
 
