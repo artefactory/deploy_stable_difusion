@@ -9,7 +9,7 @@ Simply follow the instructions in the README.md file to get started.
 Before you start, you need to download the model weights locally. You can download the weights with the `src/stable_diffusion/download_model.py` script. The model weights will be stored under `src/stable_diffusion/external_files/model_weights`.
 
 The weights are restricted to users who accepted the terms and conditions of the license, so you need 2 steps before runnning the script:
-- Log-in to your huggingface account and accept the condition of the mdoel, [here for stable diffusion 1.5](https://huggingface.co/CompVis/stable-diffusion-v1-5)
+- Log-in to your huggingface account and accept the condition of the mdoel, [here for stable diffusion 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 - Generate an API token and add it inside a .env file at the root of the project, see [.dotenv file](#dotenv-file)
 
 
